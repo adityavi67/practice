@@ -19,22 +19,16 @@ public class Ques4 {
 		
 		for(int i = 0; i<List1.size(); i++) {
 			String s1 = List1.get(i);
-			if(s1.charAt(0)=='a')
-				continue;
-			else if(s1.charAt(0)=='g')
-				continue;
-			else
+			if(s1.charAt(0)!='a'&& s1.charAt(0)!='g')
 				List3.add(s1);
+			
 		}
 		
 		
 		for(int j = 0; j<List2.size(); j++) {
 			String s2 = List2.get(j);
-			if(s2.charAt(s2.length()-1)=='n')
-				continue;
-			else if(s2.charAt(s2.length()-1)=='e')
-				continue;
-			else
+			if(s2.charAt(s2.length()-1)!='n'&& s2.charAt(s2.length()-1)!='e')
+			
 				List3.add(s2);
 		}
 		
